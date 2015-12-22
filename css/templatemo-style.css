@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'robotolight';
   src: url("../fonts/Roboto-Light-webfont.eot");
@@ -481,7 +482,7 @@ h3.profile-title {
 }
 .project-item img {
   width: 100%;
-  display: block;
+  display: flex;
 }
 .project-item:hover .project-hover {
   top: 0;
