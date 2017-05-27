@@ -215,12 +215,12 @@ h1, h2, h3, h4, h5 {
 .main-content,
 .banner-bg {
   float: right;
-  width: 77%;
+  width: 80%;
 }
 @media screen and (max-width: 1290px) {
   .main-content,
   .banner-bg {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 992px) {
@@ -240,10 +240,10 @@ h1, h2, h3, h4, h5 {
 }
 
 h4.widget-title {
-  font-size: 16px;
+  font-size: 42px;
   font-family: 'robotobold';
-  text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  color: #0a293d;
 }
 
 hr {
@@ -258,7 +258,7 @@ hr {
 }
 
 .page-section {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 /*---------------------------------------------------------
@@ -266,17 +266,17 @@ hr {
 -------------------------------------------------------- */
 .sidebar-menu {
   float: left;
-  width: 23%;
+  width: 15%;
   height: 100%;
   position: fixed;
-  background-color: #5f6d7e;
+  background-color: #0a293d;
   color: white;
   overflow-y: hidden;
 }
 @media screen and (max-width: 1290px) {
   .sidebar-menu {
     overflow-y: hidden;
-    width: 30%;
+    width: 20%;
   }
 }
 
@@ -295,9 +295,16 @@ hr {
 }
 .profile-image img {
   position: relative;
-  top: -10px;
+  top: 0px;
   left: 0px;
-  width: 102%;
+  width: 100%;
+  height: 100%;
+}
+
+.pocketgov-image img {
+  position: relative;
+  left:-25px;
+  height:250px;
 }
 
 h3.profile-title {
@@ -402,7 +409,7 @@ h3.profile-title {
 .toggle-menu {
   width: 100%;
   display: block;
-  padding: 20px;
+  padding: 20px;0 
   margin-top: 30px;
   background: #6cc0f7;
   color: white;
@@ -419,7 +426,8 @@ h3.profile-title {
 .banner-bg {
   padding: 260px 80px;
   position: relative;
-  background: url("../img/7.jpg");
+  height:60px;
+  background: url("../img/darksky.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -454,11 +462,11 @@ h3.profile-title {
 /*------ about us ------ */
 .about-image {
   overflow: hidden;
-  border: 4px solid #dddddd;
+  border: 3px solid #dddddd;
   margin-bottom: 40px;
 }
 .about-image img {
-  width: 100%;
+  width: 100%;h
   display: block;
 }
 
@@ -470,8 +478,8 @@ h3.profile-title {
 }
 .projects-holder .col-md-4,
 .projects-holder .col-md-4 {
-  padding-right: 1px;
-  padding-left: 1px;
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
 .project-item {
@@ -481,8 +489,7 @@ h3.profile-title {
   position: relative;
 }
 .project-item img {
-  width: 100%;
-  display: flex;
+  width: 120%;
 }
 .project-item:hover .project-hover {
   top: 0;
