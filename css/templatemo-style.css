@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h4.widget-title {
-  font-size: 42px;
+  font-size: 30apx;
   font-family: 'robotobold';
   margin-bottom: 20px;
   color: #0a293d;
@@ -302,6 +302,18 @@ hr {
 }
 
 .pocketgov-image img {
+  position: relative;
+  left:-25px;
+  height:250px;
+}
+
+.affiliation-image img {
+  position: relative;
+  left:-25px;
+  height:250px;
+}
+
+.tracker-image img {
   position: relative;
   left:-25px;
   height:250px;
@@ -424,9 +436,9 @@ h3.profile-title {
 -------------------------------------------------------- */
 /*------ banner ------ */
 .banner-bg {
-  padding: 260px 80px;
+  padding: 167px 80px;
   position: relative;
-  height:60px;
+  height:20px;
   background: url("../img/darksky.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -487,6 +499,7 @@ h3.profile-title {
   margin-bottom: 2px;
   overflow: hidden;
   position: relative;
+  height: 250px;
 }
 .project-item img {
   width: 120%;
